@@ -1,0 +1,113 @@
+:root{
+ background-color: white;
+ font-size: 62.5%;
+ font-family: "Inter", sans-serif;
+ font-optical-sizing: auto;
+ font-style: normal;
+ font-variation-settings:
+ "slnt" 0;
+ width: 100%;
+ height: 100vh;
+}
+
+.main-margin{
+    width: 95%;
+    margin: 20px auto;
+    padding: 0;
+   /*  background-color: rgba(0, 0, 0, 0.356); */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "main image";
+}
+
+.mainn{
+    grid-area: main;
+}
+
+.header{
+    height: 30px;
+    padding: 0;
+    margin-bottom: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.header nav ul {
+    margin-right: 20px;
+}
+
+.header nav ul li{
+    display: inline-block;
+    cursor: pointer;
+    padding: 7px 10px;
+    font-size: 1.0rem;
+    margin-left: 3px;
+}
+
+.header nav ul li:hover{
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.header li button{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 7px 10px;
+}
+
+.header li button:focus{
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.wording1{
+    width: 450px;
+    margin-bottom: 10px;
+}
+
+.wording1 h2{
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.wording2{
+    width: 400px;
+    margin-bottom: 45px;
+}
+
+.wording2{
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+
+.redirect{
+    display: flex;
+    gap: 5px;
+    padding: 10px 10px;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: black;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.redirect:hover{
+    color: #fff;
+    background-color: rgb(86, 86, 86);
+}
+
+.image{
+    grid-area: image;
+    margin: 0 auto;
+}
